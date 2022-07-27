@@ -1,4 +1,5 @@
 <?php
+session_start();
 $servername = "localhost";
 $username = "root";
 $password = "";
@@ -14,7 +15,7 @@ if ($conn->connect_error) {
 
 
 // fetching contact Info
-$contacts = $conn->query("SELECT * FROM accounts WHERE account_id=1")or die($conn->error);
+$contacts = $conn->query("SELECT * FROM accounts WHERE account_id=1") or die($conn->error);
 while ($row = $contacts->fetch_assoc()) {
     $name = $row['fname'] ." ". $row['lname'];
     $phone = $row['phone'];
@@ -23,6 +24,7 @@ while ($row = $contacts->fetch_assoc()) {
     $linkedin = $row['linkedin'];
     $twitter = $row['twitter'];
     $github = $row['github'];
+    $instagram = $row['instagram'];
     $picture = $row['picture'];
     $logo = $row['logo'];
 }

@@ -17,6 +17,23 @@
     text-align: justify;
 }
 
+.border-bottom-primary {
+    border-bottom: 3px solid #0d6efd !important;
+    
+  }
+
+  .page-card{
+      border-radius: 10px;
+  }
+  .page-card img{
+    width: 100%;
+    height: 450px;
+    border-radius: 10px 10px;
+  }
+  .page-card .body{
+      text-align: justify;
+  }
+
 /****************** 
     PORJECTS
 ******************/
@@ -31,6 +48,54 @@
 
 .project .card-body p{
     text-align: justify;
+}
+
+.project .card-body{
+    height: 200px;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+    
+    .project .card-body h3{
+       font-size: 22px;
+    }
+    .project .card-body p{
+        font-size: 14px;
+        text-align: justify;
+    }
+    .project img{
+        height: 200px;
+        width: 100%;
+        border-radius: 10px 10px 0px 0px;
+    }
+    .project .card-body{
+        height: 212px;
+    }
+}
+
+/****************** 
+    SKILLS
+******************/
+.skill{
+    border-radius: 10px;   
+}
+.skill .card-body{
+    /* padding: 5px; */
+}
+ 
+@media only screen and (max-width: 767px) {
+    .skill{
+        padding: 5px;
+      }
+      .skill .card-body{
+        padding: 2px;
+        height:40px
+    }
+    .skill .card-body h5{
+       font-size: 15px;
+    }
 }
 
 /*****************
@@ -77,14 +142,20 @@ footer.page-footer a {
     CONTACT
 ******************/
 
-.contact a i{
-    font-size: 150px;
+.contact-box{
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.contact-box .card-body i{
+    font-size: 100px;
   }
-@media only screen and (max-width: 767px) {
-    .contact a i{
-        font-size: 70px;
+
+  @media only screen and (max-width: 767px) {
+    .contact-box .card-body i{
+        font-size: 60px;
       }
-    .contact a h5{
-    font-size: 15px;
+    
+    .contact-box .card-body h5{
+    font-size: 12px;
     }
 }

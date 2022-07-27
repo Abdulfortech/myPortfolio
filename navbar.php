@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top rounded" aria-label="Eleventh navbar example">
     <div class="container-fluid">
         <a class="navbar-brand" href="https://abdul.sgr.com.ng">
-        <h2 class="text-primary"><b>Abdullahi Aminu</b></h2>
+        <h2 class="text-primary"><b>Abdulfortech</b></h2>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -15,11 +15,11 @@
             <li class="nav-item">
                 <a class="nav-link" href="projects">Projects</a>
             </li>
+            <!-- <li class="nav-item">
+                <a class="nav-link" href="blog">Blog</a>
+            </li> -->
             <li class="nav-item">
-            <a class="nav-link" href="blog">Blog</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="contact">Get in Touch</a>
+                <a class="nav-link" href="contact">Get in Touch</a>
             </li>
         </ul>
         </div>
